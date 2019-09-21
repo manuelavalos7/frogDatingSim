@@ -8,6 +8,10 @@ using System.Text.RegularExpressions;
 
 public class DialogueParser : MonoBehaviour
 {
+    public static int date1Score = 0;
+    public static int date2Score = 0;
+    public string currDate;
+
     struct DialogueLine
     {
         public string name;
@@ -35,6 +39,7 @@ public class DialogueParser : MonoBehaviour
         string sceneNum = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
         sceneNum = Regex.Replace(sceneNum, "[^0-9]", "");
         file += sceneNum;
+        currDate = sceneNum;
         file += ".txt";
 
         lines = new List<DialogueLine>();
@@ -126,5 +131,18 @@ public class DialogueParser : MonoBehaviour
             return lines[lineNumber].options;
         }
         return new string[0];
+    }
+
+    public void changeScore(int points)
+    {
+        if (currDate == "1")
+        {
+            date1Score += points;
+        } else
+        {
+            date2Score += points;
+        }
+        print("Date1: " + date1Score);
+        print("Date2: " + date2Score);
     }
 }
