@@ -688,10 +688,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1451082697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c892db042fdac49f1af4bcae8f29dcad, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b28ecf19feeb4fc9a16460599eebe46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameScene: TitleScreen
+  newGameScene: Scene1
 --- !u!114 &1451082699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: df55f6f25e6644cc1b681ef0d0e2ed0c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73b3a3bbfd22645ae90389c64675f878, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
