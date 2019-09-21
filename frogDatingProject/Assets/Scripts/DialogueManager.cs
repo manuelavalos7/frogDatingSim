@@ -113,6 +113,7 @@ public class DialogueManager : MonoBehaviour
             cb.SetText(options[i].Split(':')[0]);
             cb.option = options[i].Split(':')[1];
             cb.box = this;
+            cb.parser = GameObject.Find("DialogueParser").GetComponent<DialogueParser>();
             b.transform.SetParent(this.transform);
             b.transform.localPosition = new Vector3(0, -25 + (i * 50));
             b.transform.localScale = new Vector3(1, 1, 1);

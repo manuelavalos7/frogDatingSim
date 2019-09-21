@@ -8,6 +8,7 @@ public class ChoiceButton : MonoBehaviour
 {
     public string option;
     public DialogueManager box;
+    public DialogueParser parser;
     
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,8 @@ public class ChoiceButton : MonoBehaviour
         box.playerTalking = false;
         if (command == "line")
         {
+            string pointModifier = option.Split(',')[2];
+            parser.changeScore(int.Parse(pointModifier));
             box.lineNum = int.Parse(commandModifier);
             box.ShowDialogue();
         } else if (command == "scene")

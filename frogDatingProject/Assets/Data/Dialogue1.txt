@@ -1,6 +1,6 @@
 Name1;Hey what's up;0;R
 Name2;Nothing much man;0;L
 Name1;Oh that's cool;0;R
-Player;Restart:line,0;Continue:line,4
+Player;Restart:line,0,10;Continue:line,4,25;New Scene:scene,2
 Name1;This is a test;0;L
 Name2;Test test test;0;R
