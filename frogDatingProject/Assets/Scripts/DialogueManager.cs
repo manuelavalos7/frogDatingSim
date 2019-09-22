@@ -115,7 +115,9 @@ public class DialogueManager : MonoBehaviour
             cb.box = this;
             cb.parser = GameObject.Find("DialogueParser").GetComponent<DialogueParser>();
             b.transform.SetParent(this.transform);
-            b.transform.localPosition = new Vector3(0, -25 + (i * 50));
+            b.transform.localPosition = new Vector3(0, 70 - (i * 50));
+            print(cb.GetComponentInChildren<Text>().text);
+            print(b.transform.localPosition);
             b.transform.localScale = new Vector3(1, 1, 1);
             buttons.Add(b);
         }
