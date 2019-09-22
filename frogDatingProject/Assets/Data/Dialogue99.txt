@@ -1,0 +1,4 @@
+Name1;;0;L
+Name1;;0;L
+Name1;Wait, what is this app? I haven't seen this before;0;R
+Name1;What the %#$#?;0;R
