@@ -1,9 +1,30 @@
-Name3;This place is new, but everyone says that it's pretty good. What would you like to get?;0;R
-Player;Coffee:line,8,2;I don't like coffee but would love some tea:line,8,1;Nothing really catches my interest:line,2,0
-Name3;Are you sure?;0;R
-Player;Yes:line,4,0;No:line,6,0
-Name3;I got to go;0;R
+;*Name3 rolls up*.;0;L
+Name3;Hey are you player?;0;R
+Player;Yea it is great to meet you!:line,3,0;Yoooo!!:line,3,0;No my name a jeff:line,3,0;E:line,3,0
+Name3;It's So Great to Meet you!;0;R
+Name3;What are you up to?;0;R
+Player;Just big chilling:line,6,0;Listening to lo fi chill hip hop beats to chill/study to:line,9,0;My name a jeff:line,12,0
+Name3;Haha that's dope;0;R
+Name3;So what do you look for in a partner?;0;R
+Player;Ariana Grande:line,15,0;A sick kickflip:line,15,0;A sunflower:line,15,0
+Name3;OHHMMG I love that;0;R
+Name3;So what do you look for in a partner?;0;R
+Player;Ariana Grande:line,15,0;A sick kickflip:line,15,0;A sunflower:line,15,0
+Name3;ok.. jeff..;0;R
+Name3;So what do you look for in a partner?;0;R
+Player;Ariana Grande:line,15,0;A sick kickflip:line,15,0;A sunflower:line,15,0
+Name3;Haha sweet! I hope I can live up to that;0;R
+Name3;What is your favorite thing to do at a carnival? Do you want to play a Game?;0;R
+Player;What if we kiss by the porta-potties... Haha Just kidding... Unless... :line,18,0;Let's get some cotton candy:line,18,0;Let's Play Ring Toss!:line,18,0
+Name3;Actually let's just take some pictures in the picture booth first;0;R
+;You and Name3 enjoy yourselves at the carnival;0;R
+;Name3 is really happy;0;R
+Name3;This is the best date ever!;0;R
+Name3;So havae you already matched up with a frog?;0;R
+Player;*blush* Not yet:line,24,0;I had a good time but...:line,24,0;Let's Play Ring Toss!:line,24,0
+;Name3 leans in to kiss you;0;R
+Player;(Kiss Her):line,26,0;(Run Away):line,28,0;Let's do this by the porta-potties!:line,26,0
+;You and Name3 kiss;0;R
+;Name3 returned to their human body!;0;R
+;To be Continued;0;R
 Player;End Date:scene,0
-Name3;Okay, then what would you like?;0;R
-Player;Coffee:line,8,1;I don't like coffee but would love some tea:line,8,1
-Name3;Sounds good!;0;R
