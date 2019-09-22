@@ -1,2 +1,9 @@
-Name1;Hi;0;L
-Player;Restart:line,0,10;Continue:line,4,25;New Scene:scene,1
+Name3;This place is new, but everyone says that it's pretty good. What would you like to get?;0;R
+Player;Coffee:line,8,2;I don't like coffee but would love some tea:line,8,1;Nothing really catches my interest:line,2,0
+Name3;Are you sure?;0;R
+Player;Yes:line,4,0;No:line,6,0
+Name3;I got to go;0;R
+Player;End Date:scene,0
+Name3;Okay, then what would you like?;0;R
+Player;Coffee:line,8,1;I don't like coffee but would love some tea:line,8,1
+Name3;Sounds good!;0;R

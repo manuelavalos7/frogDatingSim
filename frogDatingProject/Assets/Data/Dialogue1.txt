@@ -1,6 +1,25 @@
-Name1;Hey what's up;0;R
-Name2;Nothing much man;0;L
-Name1;Oh that's cool;0;R
-Player;Restart:line,0,10;Continue:line,4,25;New Scene:scene,2
-Name1;This is a test;0;L
-Name2;Test test test;0;R
+Name2;Hello;0;R
+Player;Hi:line,2,1;Hello:line,2,1;...:line,2,0
+Name2;What would you like to do first?;0;R
+Name1;fsgrhfbhnkjnlk;0;L
+Player;Leave:line,5,1;Walk around:line,23,1;I don't know, how about you?:line,19,0
+Name2;Hahaha you have a great sense of humor;0;R
+Player;Not really:line,7,0;I got you there:line,19,2;Yeah... would you like to eat something?:line,11,1
+Name2;Would you like to eat something?;0;R
+Player;Yes:line,9,0;No:scene,0;Like what?:line,11,1
+;He takes her to eat some candied apple (the apple has a fly stuck at it);0;L
+Player;End Date:scene,0
+Name2;We have a bunch of options...;0;R
+Player;Candy Apple:line,13,2;Caramel nut pie:line,15,0;Ice cream:line,17,2
+;They eat apples and walk around the carnival;0;L
+Player;End Date:scene,0
+;But you are allergic to nuts and end up in the emergency room...;0;L
+Player;End Date:scene,0
+;You both love the ice cream and watch some fireworks after eating;0;L
+Player;End Date:scene,0
+Name2;There are some food booths over there, would you like to check them out?;0;R
+Player;Yes:line,11,1;No:line,21,0;Leave me alone:line,21,0
+Name2;I think I got to go!;0;R
+Player;End Date:scene,0
+Name2;Okay,let's walk!;0;R
+Player;End Date:scene,0
